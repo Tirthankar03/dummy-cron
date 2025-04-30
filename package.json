@@ -1,0 +1,13 @@
+{
+  "name": "dummy-cron",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.7.8",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
